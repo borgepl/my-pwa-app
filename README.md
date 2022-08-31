@@ -1,3 +1,17 @@
+###
+Extra info : App uses a service-worker so the website/app can be available when offline
+
+use : ng build
+to create a distribution folder
+
+goto the dist folder / app folder
+
+use : cd dist/my-pwa-app
+
+and start the webserver :
+
+use : http-server -c-1 . or http-server -p 8081
+
 # MyPwaApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
